@@ -41,7 +41,7 @@
                     </span>
                 </li>
                 <li>
-                    <a>Chào, <?php echo $_SESSION['name'] ?></a>
+                    <a href="user.php">Chào, <?php echo $_SESSION['name'] ?></a>
                     <a href="signout.php">
                         Đăng xuất
                     </a>

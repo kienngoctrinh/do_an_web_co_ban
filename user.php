@@ -13,12 +13,24 @@ if(empty($_SESSION['id'])){
     <title>Document</title>
 </head>
 <body>
-    Trang người dùng. Xin chào 
+    Xin chào, 
     <?php 
     echo $_SESSION['name']
-    ?>
+    ?>. 
     <a href="signout.php">
         Đăng xuất
     </a>
+    <ul>
+        <li>
+            <a href="update_info_user.php">
+                Thay đổi thông tin
+            </a>
+        </li>
+        <li>
+            <a href="update_user_password.php">
+                Thay đổi mật khẩu
+            </a>
+        </li>
+    </ul>
 </body>
 </html>
