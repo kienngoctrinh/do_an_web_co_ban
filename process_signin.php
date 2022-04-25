@@ -33,3 +33,5 @@ if($number_rows == 1){
 } else{
     echo "Đăng nhập thất bại";
 }
+
+header('location:index.php');
