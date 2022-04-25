@@ -12,6 +12,7 @@
 <body>
     <?php
     require '../connect.php';
+    require '../menu.php';
     $sql = "select * from admin
     where level = '0'";
     $result = mysqli_query($connect, $sql);
