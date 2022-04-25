@@ -13,11 +13,11 @@
          </div>
          <form action="process_login.php" method="post">
             <div class="field">
-               <input type="text" name="email" required>
+               <input type="text" name="email">
                <label>Email</label>
             </div>
             <div class="field">
-               <input type="password" name="password" required>
+               <input type="password" name="password">
                <label>Mật khẩu</label>
             </div>
             <div class="field">
