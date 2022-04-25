@@ -1,0 +1,105 @@
+.menu-home {
+    height: 1600px;
+    width: 100%;
+    background: white;
+}
+
+.menu-home-left {
+    height: 1600px;
+    width: 10%;
+    background: white;
+    float: left;
+}
+
+.menu-home-center {
+    height: 1600px;
+    width: 80%;
+    background: white;
+    float: left;
+}
+
+.menu-home-right {
+    height: 1600px;
+    width: 10%;
+    background: white;
+    float: left;
+}
+
+.menu-home-top {
+    height: 200px;
+    width: 100%;
+    background: white;
+    float: left;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.menu-home-bottom {
+    height: 200px;
+    width: 100%;
+    background: white;
+    float: left;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.menu-item-cart{
+    height: 170px;
+    width: 100%;
+    background: wheat;
+    float: left;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.menu-item-cart-1{
+    height: 170px;
+    width: 20%;
+    background: wheat;
+    float: left;
+    text-align: center;
+}
+
+.menu-item-cart-2{
+    height: 170px;
+    width: 32%;
+    background: wheat;
+    float: left;
+    text-align: center;
+}
+
+.menu-item-cart-3{
+    height: 170px;
+    width: 16%;
+    background: wheat;
+    float: left;
+    text-align: center;
+}
+
+.menu-item-cart-4{
+    height: 170px;
+    width: 16%;
+    background: wheat;
+    float: left;
+    text-align: center;
+}
+
+.menu-item-cart-5{
+    height: 170px;
+    width: 16%;
+    background: wheat;
+    float: left;
+    text-align: center;
+}
+
+.menu-item-bill{
+    height: 180px;
+    width: 100%;
+    background: wheat;
+    float: left;
+    border: 1px solid white;
+    text-align: center;
+}

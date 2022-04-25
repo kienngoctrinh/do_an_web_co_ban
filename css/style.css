@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  height: 40px;
+  background: #eee;
+  width: 100%;
+}
+
+.top-bar a {
+  color: #666666;
+}
+
+.email {
+  float: left;
+  margin-left: 400px;
+  padding: 6px 20px;
+}
+
+.phone {
+  float: left;
+  margin-left: 20px;
+  padding: 6px 20px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  background: white;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  font-size: 55px;
+  line-height: 80px;
+  padding: 0 200px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 400px;
+  font-size: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: black;
+  font-size: 22px;
+  padding: 7px 13px;
+}
+
+main {
+  height: 1800px;
+  width: 100%;
+  background: white;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.menu-home {
+  width: 100%;
+  height: 1200px;
+  background: white;
+}
+
+.menu-home-top {
+  height: 150px;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+.menu-home-top p {
+  line-height: 150px;
+  font-size: 50px;
+}
+
+.menu-home-left {
+  height: 1000px;
+  width: 15%;
+  background: white;
+  float: left;
+}
+
+.menu-home-right {
+  height: 1000px;
+  width: 15%;
+  background: white;
+  float: right;
+}
+
+.menu-home-center {
+  height: 1000px;
+  width: 70%;
+  background: white;
+  float: left;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.menu-home-bottom {
+  height: 50px;
+  width: 100%;
+  background: white;
+  float: left;
+  text-align: center;
+}
+
+.menu-item {
+  height: 400px;
+  width: 25%;
+  background: wheat;
+  float: left;
+  border: 10px solid white;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+}
+
+
+
+
