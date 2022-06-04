@@ -86,7 +86,7 @@
         <?php } ?>
     </table>
     <?php for ($i = 1; $i <= $page_number; $i++) { ?>
-        <a style="text-align: center;" href="?page=<?php echo $i ?>&search=<?php echo $search ?>">
+        <a href="?page=<?php echo $i ?>&search=<?php echo $search ?>">
             <?php echo $i ?>
         </a>
     <?php } ?>

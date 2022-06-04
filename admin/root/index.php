@@ -8,11 +8,10 @@
     <title>Dashboard</title>
 </head>
 <body>
+    <h1>Giao diện Admin</h1>
+    
     <?php
     require '../menu.php';
     ?>
-    <div class="content">
-        <h1>Giao diện admin</h1>
-    </div>
 </body>
 </html>

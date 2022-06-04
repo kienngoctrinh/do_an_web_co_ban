@@ -2,7 +2,6 @@
     <div class="wrapper">
         <nav id="sidebar">
             <div class="title">
-                Admin
                 <ul class="list-items">
                     <?php if (empty($_SESSION['level'])) { ?>
                         <li>
@@ -24,6 +23,11 @@
                         <li>
                             <a href="../member">
                                 Quản lý nhân viên
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../news">
+                                Quản lý bài đăng tin tức
                             </a>
                         </li>
                     <?php } ?>
