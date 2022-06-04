@@ -1,0 +1,10 @@
+<?php require '../check_super_admin_login.php';
+
+$id = $_GET['id'];
+require '../connect.php';
+
+$sql = "delete from news
+where id = '$id'";
+
+mysqli_query($connect,$sql);
+mysqli_close($connect);
