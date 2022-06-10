@@ -19,13 +19,9 @@
     $each = mysqli_fetch_array($result);
     ?>
     <h1>Quản lý nhân viên</h1>
-    <ul>
-        <li>
-            <a href="add_member.php">
-                Thêm nhân viên
-            </a>
-        </li>
-    </ul>
+    <a href="add_member.php">
+        Thêm nhân viên
+    </a>
     <table border="1" width="100%">
         <tr>
             <th>Mã</th>

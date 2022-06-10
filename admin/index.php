@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Admin Login</title>
+      <title>Admin | Login</title>
       <link rel="stylesheet" href="../css/style_admin_login.css">
    </head>
    <body>

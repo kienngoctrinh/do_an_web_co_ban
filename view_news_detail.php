@@ -37,7 +37,7 @@
             <div class="menu-home-center">
                 <h1 style="font-size: 50px;"><?php echo $each['title'] ?></h1>
                 <div class="menu-home-center-photo">
-                    <img height="500px" src="admin/news/photos/<?php echo $each['photo'] ?>">
+                    <img height="450px" src="admin/news/photos/<?php echo $each['photo'] ?>">
                 </div>
                 <div class="menu-home-center-content">
                     <p style="text-align: left;"><?php echo nl2br($each['content']) ?></p>

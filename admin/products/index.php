@@ -47,6 +47,7 @@
     <a href="form_insert.php">
         Thêm sản phẩm
     </a>
+
     <table border="1" width="100%">
         <caption>
             <form>

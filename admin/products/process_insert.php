@@ -19,3 +19,5 @@ values('$name','$file_name','$price','$description')";
 
 mysqli_query($connect,$sql);
 mysqli_close($connect);
+
+header("location:index.php");
