@@ -86,18 +86,18 @@
                         </div>
                         <div class="menu-item-news-content">
                             <h2 style="text-align: left">
+
                             <?php 
-                        
                             $str = $each['title'];
                             $slug = to_slug($str);                        
-
                             ?>
-                                <a href="view_news_detail.php?id=<?php echo $each['id'] ?>?title=<?php echo $slug ?>">
+
+                                <a href="view_news_detail.php?id=<?php echo $each['id'] ?>&title=<?php echo $slug ?>">
                                     <?php echo $each['title'] ?>
                                 </a>
                             </h2>
                             <p style="text-align: left">
-                                <a href="view_news_detail.php?id=<?php echo $each['id'] ?>?title=<?php echo $slug ?>">
+                                <a href="view_news_detail.php?id=<?php echo $each['id'] ?>&title=<?php echo $slug ?>">
                                     <?php
                                     $str = $each['content'];
                                     $str2 = mb_substr($str, 0, 300);
