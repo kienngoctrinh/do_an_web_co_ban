@@ -100,7 +100,9 @@
                                 <a href="view_news_detail.php?id=<?php echo $each['id'] ?>&title=<?php echo $slug ?>">
                                     <?php
                                     $str = $each['content'];
-                                    $str2 = mb_substr($str, 0, 300);
+                                    $arr = explode(' ', $str);
+                                    $arr2 = array_slice($arr, 0, 80);
+                                    $str2 = implode(' ', $arr2);
                                     $str3 = $str2 . '...';
                                     echo $str3;
                                     ?>
