@@ -32,12 +32,12 @@
                 </li>
             <?php } else { ?>
                 <li>
-                    <a href="user.php">Chào, <?php echo $_SESSION['name'] ?></a>
-                </li>
-                <li>
                     <a href="view_cart.php">
                         Xem giỏ hàng
                     </a>
+                </li>
+                <li>
+                    <a href="user.php">Chào, <?php echo $_SESSION['name'] ?></a>
                 </li>
                 <li>
                     <a href="signout.php">
